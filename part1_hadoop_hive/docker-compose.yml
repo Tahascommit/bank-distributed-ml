@@ -1,0 +1,111 @@
+# Small Hadoop + Hive cluster for Part 1, everything in Docker.
+#
+#   docker compose up -d        start the cluster
+#   docker compose down         stop it (data in HDFS is kept in volumes)
+#
+# Web pages:
+#   HDFS (NameNode)      http://localhost:9870
+#   YARN (jobs)          http://localhost:8088
+#   Job history          http://localhost:19888
+#   HiveServer2          http://localhost:10002
+
+x-hadoop: &hadoop
+  image: bank-hadoop-hive:4.2.1
+  build: ./docker
+  volumes:
+    - ./docker/hadoop-conf/core-site.xml:/opt/hadoop/etc/hadoop/core-site.xml:ro
+    - ./docker/hadoop-conf/hdfs-site.xml:/opt/hadoop/etc/hadoop/hdfs-site.xml:ro
+    - ./docker/hadoop-conf/mapred-site.xml:/opt/hadoop/etc/hadoop/mapred-site.xml:ro
+    - ./docker/hadoop-conf/yarn-site.xml:/opt/hadoop/etc/hadoop/yarn-site.xml:ro
+    # the project folder, so the dataset and our scripts are visible inside the containers
+    - ..:/project:ro
+  environment: &hadoop-env
+    HADOOP_CONF_DIR: /opt/hadoop/etc/hadoop
+    # hadoop 3.4 runs on java 11, the java 21 in the image is for hive
+    JAVA_HOME: /usr/lib/jvm/jre-11
+  entrypoint: ["/bin/bash", "-c"]
+
+services:
+  namenode:
+    <<: *hadoop
+    container_name: namenode
+    hostname: namenode
+    # format HDFS the first time only, then start the namenode
+    command: ["[ -d /data/namenode/current ] || hdfs namenode -format -force -nonInteractive; exec hdfs namenode"]
+    volumes:
+      - ./docker/hadoop-conf/core-site.xml:/opt/hadoop/etc/hadoop/core-site.xml:ro
+      - ./docker/hadoop-conf/hdfs-site.xml:/opt/hadoop/etc/hadoop/hdfs-site.xml:ro
+      - ./docker/hadoop-conf/mapred-site.xml:/opt/hadoop/etc/hadoop/mapred-site.xml:ro
+      - ./docker/hadoop-conf/yarn-site.xml:/opt/hadoop/etc/hadoop/yarn-site.xml:ro
+      - ..:/project:ro
+      - namenode:/data
+    ports:
+      - "127.0.0.1:9870:9870"
+
+  datanode:
+    <<: *hadoop
+    container_name: datanode
+    hostname: datanode
+    command: ["exec hdfs datanode"]
+    volumes:
+      - ./docker/hadoop-conf/core-site.xml:/opt/hadoop/etc/hadoop/core-site.xml:ro
+      - ./docker/hadoop-conf/hdfs-site.xml:/opt/hadoop/etc/hadoop/hdfs-site.xml:ro
+      - ./docker/hadoop-conf/mapred-site.xml:/opt/hadoop/etc/hadoop/mapred-site.xml:ro
+      - ./docker/hadoop-conf/yarn-site.xml:/opt/hadoop/etc/hadoop/yarn-site.xml:ro
+      - ..:/project:ro
+      - datanode:/data
+    depends_on: [namenode]
+
+  resourcemanager:
+    <<: *hadoop
+    container_name: resourcemanager
+    hostname: resourcemanager
+    command: ["exec yarn resourcemanager"]
+    ports:
+      - "127.0.0.1:8088:8088"
+    depends_on: [namenode]
+
+  nodemanager:
+    <<: *hadoop
+    container_name: nodemanager
+    hostname: nodemanager
+    command: ["exec yarn nodemanager"]
+    ports:
+      - "127.0.0.1:8042:8042"
+    depends_on: [resourcemanager]
+
+  historyserver:
+    <<: *hadoop
+    container_name: historyserver
+    hostname: historyserver
+    command: ["exec mapred historyserver"]
+    ports:
+      - "127.0.0.1:19888:19888"
+    depends_on: [namenode]
+
+  # hiveserver2 with an embedded metastore, tables are stored in HDFS
+  hiveserver2:
+    image: bank-hadoop-hive:4.2.1
+    container_name: hiveserver2
+    hostname: hiveserver2
+    environment:
+      SERVICE_NAME: hiveserver2
+      HIVE_WAREHOUSE_PATH: /user/hive/warehouse
+      HADOOP_CONF_DIR: /opt/hadoop/etc/hadoop
+      # files in this folder replace the generated hive config (our core-site.xml points hive at HDFS)
+      HIVE_CUSTOM_CONF_DIR: /hive-custom-conf
+    volumes:
+      - ./docker/hadoop-conf/core-site.xml:/opt/hadoop/etc/hadoop/core-site.xml:ro
+      - ./docker/hadoop-conf/hdfs-site.xml:/opt/hadoop/etc/hadoop/hdfs-site.xml:ro
+      - ./docker/hive-conf:/hive-custom-conf:ro
+      - ..:/project:ro
+      - hive-metastore:/opt/hive/data
+    ports:
+      - "127.0.0.1:10000:10000"
+      - "127.0.0.1:10002:10002"
+    depends_on: [namenode, datanode]
+
+volumes:
+  namenode:
+  datanode:
+  hive-metastore:

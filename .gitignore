@@ -1,0 +1,16 @@
+# python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# spark
+spark-warehouse/
+metastore_db/
+derby.log
+checkpoints/
+
+# os / editor
+.DS_Store
+.vscode/
+.idea/

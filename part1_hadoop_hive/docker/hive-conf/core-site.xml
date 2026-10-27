@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configuration>
+  <!-- every container talks to HDFS through the namenode -->
+  <property><name>fs.defaultFS</name><value>hdfs://namenode:9000</value></property>
+  <property><name>hadoop.tmp.dir</name><value>/tmp/hadoop</value></property>
+  <!-- hiveserver2 runs queries as the user that connects -->
+  <property><name>hadoop.proxyuser.hive.hosts</name><value>*</value></property>
+  <property><name>hadoop.proxyuser.hive.groups</name><value>*</value></property>
+</configuration>
