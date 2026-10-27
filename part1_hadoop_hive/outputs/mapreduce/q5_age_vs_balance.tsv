@@ -1,0 +1,6 @@
+age_group	clients	avg_balance	median_balance	min_balance	max_balance	negative_balance_%
+under 30	482	1058	353	-1202	22171	9.5
+30-39	1808	1298	428	-1053	27359	7.7
+40-49	1203	1475	474	-1746	42045	9.6
+50-59	854	1547	456	-3313	27069	7.4
+60 and over	174	2754	847	-396	71188	1.1

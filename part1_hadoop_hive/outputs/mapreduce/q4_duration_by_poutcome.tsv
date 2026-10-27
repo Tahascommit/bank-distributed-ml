@@ -1,0 +1,5 @@
+poutcome	clients	avg_duration_sec	avg_duration_min
+failure	490	254.4	4.2
+other	197	273.8	4.6
+success	129	338.6	5.6
+unknown	3705	262.1	4.4
