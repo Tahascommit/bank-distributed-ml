@@ -1,0 +1,219 @@
+[producer] sending chunks every 0.5 seconds
+
+--- batch 0: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    09:59:30   09:59:40             1        757.0
+    10:00:00   10:00:10            29       1112.5
+
+--- batch 1: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    09:59:30   09:59:40             2        502.0
+    09:59:40   09:59:50             1        310.0
+    09:59:50   10:00:00             1       1019.0
+    10:00:00   10:00:10            46       1084.1
+    10:00:10   10:00:20            10       1744.1
+
+--- batch 2: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    10:00:10   10:00:20            40       2942.0
+
+--- batch 3: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    09:59:50   10:00:00             2        517.5
+    10:00:00   10:00:10            48       1046.7
+    10:00:10   10:00:20            50       2480.4
+    10:00:20   10:00:30            17        529.5
+
+--- batch 4: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    09:59:50   10:00:00             3       1011.0
+    10:00:00   10:00:10            49       1477.8
+    10:00:20   10:00:30            45       1578.9
+
+--- batch 5: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    10:00:30   10:00:40            30        985.3
+
+--- batch 6: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    10:00:10   10:00:20            52       2467.6
+    10:00:30   10:00:40            48       1886.4
+    10:00:40   10:00:50            10       1028.2
+
+--- batch 7: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    10:00:20   10:00:30            46       1544.6
+    10:00:40   10:00:50            39       1646.3
+
+--- batch 8: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    10:00:00   10:00:10            50       1461.3
+    10:00:10   10:00:20            54       2406.2
+    10:00:30   10:00:40            49       1913.0
+    10:00:40   10:00:50            47       1505.4
+    10:00:50   10:01:00            18       1301.9
+
+--- batch 9: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    10:00:30   10:00:40            50       1913.4
+    10:00:50   10:01:00            47        899.8
+
+--- batch 10: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    10:00:30   10:00:40            51       1876.7
+    10:01:00   10:01:10            29       1498.9
+
+--- batch 11: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    10:01:00   10:01:10            49       1546.1
+    10:01:10   10:01:20            10       1976.5
+
+--- batch 12: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    10:01:10   10:01:20            40       1417.4
+
+--- batch 13: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    10:00:40   10:00:50            48       1474.1
+    10:00:50   10:01:00            49        884.3
+    10:01:10   10:01:20            49       1475.4
+    10:01:20   10:01:30            18       1898.0
+
+--- batch 14: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    10:00:40   10:00:50            50       1592.3
+    10:00:50   10:01:00            50        866.6
+    10:01:00   10:01:10            50       1551.0
+    10:01:10   10:01:20            50       1478.6
+    10:01:20   10:01:30            43       1990.7
+
+--- batch 15: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    10:01:00   10:01:10            51       1520.9
+    10:01:30   10:01:40            29       1250.8
+
+--- batch 16: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    10:01:00   10:01:10            52       1494.3
+    10:01:20   10:01:30            44       1970.2
+    10:01:30   10:01:40            47       1049.3
+    10:01:40   10:01:50            10        894.1
+
+--- batch 17: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    10:01:00   10:01:10            53       1474.6
+    10:01:20   10:01:30            45       2039.9
+    10:01:40   10:01:50            38        621.6
+
+--- batch 18: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    10:01:20   10:01:30            46       2002.3
+    10:01:30   10:01:40            48       1060.7
+    10:01:40   10:01:50            47        890.8
+    10:01:50   10:02:00            19       1194.3
+
+--- batch 19: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    10:01:20   10:01:30            47       1959.7
+    10:01:50   10:02:00            48       1593.6
+
+--- batch 20: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    10:01:30   10:01:40            49       1066.7
+    10:01:40   10:01:50            48        880.6
+    10:02:00   10:02:10            28       1117.0
+
+--- batch 21: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    09:59:20   09:59:30             1       3050.0
+    10:02:00   10:02:10            47       1258.6
+    10:02:10   10:02:20            10       1799.4
+
+--- batch 22: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    10:01:40   10:01:50            49        878.3
+    10:02:10   10:02:20            39       1542.8
+
+--- batch 23: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    09:59:10   09:59:20             1       2144.0
+    09:59:20   09:59:30             2       1738.5
+    10:01:40   10:01:50            50        876.5
+    10:02:00   10:02:10            50       1274.4
+    10:02:10   10:02:20            48       1374.3
+    10:02:20   10:02:30            15        398.4
+
+--- batch 24: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    09:59:40   09:59:50             2        155.0
+    10:02:20   10:02:30            44        782.9
+
+--- batch 25: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    09:59:50   10:00:00             4       2312.5
+    10:00:00   10:00:10            51       1556.0
+    10:01:50   10:02:00            49       1679.0
+    10:02:10   10:02:20            50       1353.0
+    10:02:20   10:02:30            45        770.2
+    10:02:30   10:02:40            24       1781.7
+
+--- batch 26: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    10:02:00   10:02:10            51       1254.2
+    10:02:30   10:02:40            44       1335.5
+    10:02:40   10:02:50             9       1160.4
+
+--- batch 27: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    09:59:20   09:59:30             3       1328.0
+    09:59:50   10:00:00             5       1850.0
+    10:02:40   10:02:50            37       1165.0
+
+--- batch 28: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    09:59:50   10:00:00             6       2211.7
+    10:00:00   10:00:10            53       1514.4
+    10:02:20   10:02:30            46        743.5
+    10:02:40   10:02:50            46       1386.0
+    10:02:50   10:03:00            17       1699.8
+
+--- batch 29: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    09:59:50   10:00:00             7       3080.7
+    10:02:10   10:02:20            52       1474.8
+    10:02:20   10:02:30            47        728.3
+    10:02:30   10:02:40            45       1307.0
+    10:02:40   10:02:50            47       1371.4
+    10:02:50   10:03:00            41       1244.7
+
+--- batch 30: windows of 10 seconds updated in this batch ---
+window_start window_end  transactions  avg_balance
+    09:59:50   10:00:00             8       3142.6
+    10:03:00   10:03:10             3        976.0
+
+=== final result: windows of 10 seconds ===
+window_start window_end  transactions  avg_balance
+    09:59:10   09:59:20             1       2144.0
+    09:59:20   09:59:30             3       1328.0
+    09:59:30   09:59:40             2        502.0
+    09:59:40   09:59:50             2        155.0
+    09:59:50   10:00:00             8       3142.6
+    10:00:00   10:00:10            53       1514.4
+    10:00:10   10:00:20            54       2406.2
+    10:00:20   10:00:30            46       1544.6
+    10:00:30   10:00:40            51       1876.7
+    10:00:40   10:00:50            50       1592.3
+    10:00:50   10:01:00            50        866.6
+    10:01:00   10:01:10            53       1474.6
+    10:01:10   10:01:20            50       1478.6
+    10:01:20   10:01:30            47       1959.7
+    10:01:30   10:01:40            49       1066.7
+    10:01:40   10:01:50            50        876.5
+    10:01:50   10:02:00            49       1679.0
+    10:02:00   10:02:10            51       1254.2
+    10:02:10   10:02:20            52       1474.8
+    10:02:20   10:02:30            47        728.3
+    10:02:30   10:02:40            45       1307.0
+    10:02:40   10:02:50            47       1371.4
+    10:02:50   10:03:00            41       1244.7
+    10:03:00   10:03:10             3        976.0

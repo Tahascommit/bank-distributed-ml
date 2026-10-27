@@ -184,7 +184,8 @@ def main():
     time.sleep(1)
 
     if args.task == "window":
-        show(f"=== final result: windows of {args.size} ===", pd.DataFrame(list(queries[0].final_table.values())).drop(columns="Index"))
+        final = pd.DataFrame(list(queries[0].final_table.values())).drop(columns="Index").sort_values("window_start")
+        show(f"=== final result: windows of {args.size} ===", final)
     if args.task == "watermark":
         report_watermark(queries)
     for q in queries:

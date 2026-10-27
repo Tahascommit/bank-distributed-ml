@@ -1,0 +1,20 @@
+[producer] sending chunks every 0.5 seconds
+
+=== final counts per 30 second window ===
+window_start  count_no_watermark  count_with_watermark  dropped
+    09:59:00                   4                     0        4
+    09:59:30                  12                     6        6
+    10:00:00                 153                   150        3
+    10:00:30                 151                   151        0
+    10:01:00                 150                   150        0
+    10:01:30                 148                   148        0
+    10:02:00                 150                   150        0
+    10:02:30                 133                   133        0
+    10:03:00                   3                     3        0
+
+rows counted without watermark: 904
+rows counted with a 1 minute watermark: 891
+rows dropped by the watermark: 13
+rows I made very late on purpose: 13, out of order but within 1 minute: 54 (these are still counted)
+spark's own numRowsDroppedByWatermark metric: 11 (it counts after the partial aggregation inside each batch, so two late rows of the same window in one batch count once)
+windows kept in state at the end: 9 without watermark, 3 with watermark

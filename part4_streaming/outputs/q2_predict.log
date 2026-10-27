@@ -1,0 +1,369 @@
+[producer] sending chunks every 1.5 seconds
+
+--- batch 0: 30 new transactions, first 8 with their prediction ---
+ txn_id  age          job  balance  duration poutcome  prob_yes predicted  y
+      1   51 entrepreneur    -2082       123  unknown     0.060        no no
+      2   50   management     2881       510    other     0.841       yes no
+      3   50   technician     1412       131  unknown     0.152        no no
+      4   37   management        0       247  unknown     0.058        no no
+      5   31       admin.      757       343  unknown     0.761       yes no
+      6   39       admin.     -650       123  failure     0.245        no no
+      7   41       admin.     5110       231  unknown     0.542       yes no
+      8   31       admin.      360       332    other     0.782       yes no
+batch accuracy 80.0% | running accuracy 80.0% over 30 rows | subscribers caught so far 5/5
+
+--- batch 1: 30 new transactions, first 8 with their prediction ---
+ txn_id  age         job  balance  duration poutcome  prob_yes predicted   y
+     31   51  technician       -3        91  unknown     0.088        no  no
+     32   26  technician        7       188  unknown     0.194        no  no
+     33   34 blue-collar      247       193  unknown     0.012        no  no
+     34   32 blue-collar      478       200  unknown     0.109        no  no
+     35   53      admin.      105        74  unknown     0.109        no  no
+     36   27      admin.       15       177  unknown     0.186        no  no
+     37   75     retired     3771       185  success     0.966       yes yes
+     38   34 blue-collar      360        46  failure     0.068        no  no
+batch accuracy 83.3% | running accuracy 81.7% over 60 rows | subscribers caught so far 7/8
+
+--- batch 2: 30 new transactions, first 8 with their prediction ---
+ txn_id  age         job  balance  duration poutcome  prob_yes predicted   y
+     61   60     retired    71188       205  unknown     0.897       yes  no
+     62   34     student     1281       279  failure     0.561       yes  no
+     63   42  management      -34       176  unknown     0.619       yes  no
+     64   30  technician     6619       239  unknown     0.197        no  no
+     65   30 blue-collar     1317       395  unknown     0.082        no  no
+     66   28     student     1562       659  unknown     0.972       yes yes
+     67   34 blue-collar      326       150  unknown     0.012        no  no
+     68   26    services     -162        44  unknown     0.152        no  no
+batch accuracy 70.0% | running accuracy 77.8% over 90 rows | subscribers caught so far 9/10
+
+--- batch 3: 30 new transactions, first 8 with their prediction ---
+ txn_id  age         job  balance  duration poutcome  prob_yes predicted   y
+     91   32 blue-collar      150       210  unknown     0.378        no  no
+     92   49  technician      523       152  unknown     0.608       yes yes
+     93   38    services     -314        66  unknown     0.023        no  no
+     94   43     unknown      181        41  unknown     0.121        no  no
+     95   55 blue-collar      410       221  unknown     0.081        no  no
+     96   54   housemaid        0        94    other     0.314        no  no
+     97   32  technician      253       257  unknown     0.136        no  no
+     98   42 blue-collar     1156        37  unknown     0.113        no  no
+batch accuracy 90.0% | running accuracy 80.8% over 120 rows | subscribers caught so far 13/14
+
+--- batch 4: 30 new transactions, first 8 with their prediction ---
+ txn_id  age           job  balance  duration poutcome  prob_yes predicted  y
+    121   33   blue-collar     -131       145  unknown     0.041        no no
+    122   28   blue-collar      101       126  unknown     0.015        no no
+    123   51      services        0       565  unknown     0.418        no no
+    124   57 self-employed    -3313       153  unknown     0.042        no no
+    125   29   blue-collar      424       241  unknown     0.019        no no
+    126   35       unknown      634       185  unknown     0.249        no no
+    127   55      services      186       241  unknown     0.025        no no
+    128   29        admin.    22171        44  failure     0.158        no no
+batch accuracy 83.3% | running accuracy 81.3% over 150 rows | subscribers caught so far 14/15
+
+--- batch 5: 30 new transactions, first 8 with their prediction ---
+ txn_id  age         job  balance  duration poutcome  prob_yes predicted   y
+    151   35  technician      188       286  unknown     0.398        no  no
+    152   52 blue-collar      -98       423  unknown     0.141        no  no
+    153   73     retired      279       399  unknown     0.503       yes yes
+    154   42  technician      613       432  unknown     0.402        no  no
+    155   31  technician     -162       380  unknown     0.476        no  no
+    156   56  management     2959       325  unknown     0.449        no  no
+    157   57   housemaid     7082        69  unknown     0.074        no  no
+    158   42  management      100        64  unknown     0.207        no  no
+batch accuracy 73.3% | running accuracy 80.0% over 180 rows | subscribers caught so far 19/20
+
+--- batch 6: 30 new transactions, first 8 with their prediction ---
+ txn_id  age         job  balance  duration poutcome  prob_yes predicted   y
+    181   58     retired      764       219  unknown     0.413        no  no
+    182   53    services     4554         8  unknown     0.142        no  no
+    183   49  management     3371       269  unknown     0.251        no yes
+    184   35    services      414        11    other     0.326        no  no
+    185   43 blue-collar      255       180  unknown     0.099        no  no
+    186   29  management      415       449  unknown     0.118        no  no
+    187   38  management     -469       209  unknown     0.063        no  no
+    188   33 blue-collar     1925        76  unknown     0.499        no  no
+batch accuracy 80.0% | running accuracy 80.0% over 210 rows | subscribers caught so far 21/24
+
+--- batch 7: 30 new transactions, first 8 with their prediction ---
+ txn_id  age           job  balance  duration poutcome  prob_yes predicted  y
+    211   59     housemaid        0       722  failure     0.950       yes no
+    212   35   blue-collar     3102       138  unknown     0.155        no no
+    213   31 self-employed      360       592  unknown     0.399        no no
+    214   37        admin.     2317       114  failure     0.501       yes no
+    215   29        admin.     1117        77  unknown     0.045        no no
+    216   25      services      402       264  unknown     0.146        no no
+    217   36    technician      146       284  unknown     0.030        no no
+    218   35        admin.     1555        26  unknown     0.036        no no
+batch accuracy 76.7% | running accuracy 79.6% over 240 rows | subscribers caught so far 23/27
+
+--- batch 8: 30 new transactions, first 8 with their prediction ---
+ txn_id  age          job  balance  duration poutcome  prob_yes predicted   y
+    241   32  blue-collar      119        20  unknown     0.039        no  no
+    242   33  blue-collar      925       884  unknown     0.884       yes  no
+    243   59      retired     1173        77  unknown     0.195        no  no
+    244   37 entrepreneur      654       594  unknown     0.379        no  no
+    245   56       admin.     1504        66  unknown     0.046        no  no
+    246   66      retired      206       479  unknown     0.876       yes yes
+    247   52   technician      192        61  unknown     0.087        no  no
+    248   55       admin.     1102       126  unknown     0.053        no  no
+batch accuracy 83.3% | running accuracy 80.0% over 270 rows | subscribers caught so far 25/30
+
+--- batch 9: 30 new transactions, first 8 with their prediction ---
+ txn_id  age        job  balance  duration poutcome  prob_yes predicted  y
+    271   51 technician     2506       210  unknown     0.262        no no
+    272   35   services      221       150  failure     0.185        no no
+    273   49 technician    -1680        92  unknown     0.063        no no
+    274   35     admin.        0       105  unknown     0.036        no no
+    275   40   services     4384       315  unknown     0.054        no no
+    276   54   services      -22        85  unknown     0.049        no no
+    277   34   services      202       318  unknown     0.111        no no
+    278   33 management      106       175  unknown     0.295        no no
+batch accuracy 83.3% | running accuracy 80.3% over 300 rows | subscribers caught so far 25/31
+
+--- batch 10: 30 new transactions, first 8 with their prediction ---
+ txn_id  age          job  balance  duration poutcome  prob_yes predicted   y
+    301   34  blue-collar     1666        30  unknown     0.138        no  no
+    302   40       admin.      100       221  success     0.937       yes yes
+    303   31  blue-collar     -502        76  unknown     0.017        no  no
+    304   51  blue-collar       42        51  failure     0.053        no  no
+    305   33 entrepreneur       82        63  unknown     0.037        no  no
+    306   42  blue-collar     -921       115  unknown     0.028        no  no
+    307   33  blue-collar      142       123    other     0.318        no  no
+    308   38  blue-collar       -1        72  unknown     0.027        no  no
+batch accuracy 86.7% | running accuracy 80.9% over 330 rows | subscribers caught so far 29/35
+
+--- batch 11: 30 new transactions, first 8 with their prediction ---
+ txn_id  age           job  balance  duration poutcome  prob_yes predicted  y
+    331   60 self-employed      179        79  unknown     0.084        no no
+    332   49        admin.      169        82  unknown     0.087        no no
+    333   35    management     4286       357  unknown     0.146        no no
+    334   48      services     1499        17  unknown     0.029        no no
+    335   31    technician      102       460  failure     0.789       yes no
+    336   26    management     -402       127  unknown     0.053        no no
+    337   30        admin.       11       157  unknown     0.190        no no
+    338   34  entrepreneur     4343        85  unknown     0.051        no no
+batch accuracy 86.7% | running accuracy 81.4% over 360 rows | subscribers caught so far 33/40
+
+--- batch 12: 30 new transactions, first 8 with their prediction ---
+ txn_id  age         job  balance  duration poutcome  prob_yes predicted  y
+    361   48  technician      127       524  unknown     0.364        no no
+    362   46 blue-collar      147       116  failure     0.056        no no
+    363   26 blue-collar      155       291  failure     0.186        no no
+    364   20     student      291       172  failure     0.348        no no
+    365   45   housemaid     4994        48  unknown     0.090        no no
+    366   38  management     1373       119  unknown     0.769       yes no
+    367   56 blue-collar      420        76  unknown     0.015        no no
+    368   31  technician     3706       129  unknown     0.130        no no
+batch accuracy 86.7% | running accuracy 81.8% over 390 rows | subscribers caught so far 35/43
+
+--- batch 13: 30 new transactions, first 8 with their prediction ---
+ txn_id  age         job  balance  duration poutcome  prob_yes predicted  y
+    391   37  management        0       217  unknown     0.172        no no
+    392   55  technician      574       243  unknown     0.091        no no
+    393   27 blue-collar     5563       435  unknown     0.212        no no
+    394   39    services     1970        30  success     0.513       yes no
+    395   44  technician     5597        27  unknown     0.069        no no
+    396   45      admin.       72       262  failure     0.187        no no
+    397   51 blue-collar      377       143  failure     0.144        no no
+    398   49 blue-collar     1032        41  unknown     0.021        no no
+batch accuracy 80.0% | running accuracy 81.7% over 420 rows | subscribers caught so far 35/43
+
+--- batch 14: 30 new transactions, first 8 with their prediction ---
+ txn_id  age         job  balance  duration poutcome  prob_yes predicted   y
+    421   41  management     2457       285  unknown     0.050        no  no
+    422   35 blue-collar     1792       630  unknown     0.563       yes yes
+    423   29 blue-collar       15       136  unknown     0.291        no  no
+    424   53 blue-collar       53       208  failure     0.259        no  no
+    425   39      admin.       14        19  unknown     0.006        no  no
+    426   33  technician      133       218  unknown     0.197        no yes
+    427   57  technician      295       151  unknown     0.086        no  no
+    428   38  management     2278       244  unknown     0.127        no  no
+batch accuracy 80.0% | running accuracy 81.6% over 450 rows | subscribers caught so far 37/46
+
+--- batch 15: 30 new transactions, first 8 with their prediction ---
+ txn_id  age         job  balance  duration poutcome  prob_yes predicted   y
+    451   37  management      489       205  unknown     0.175        no  no
+    452   31 blue-collar     -617       115  unknown     0.060        no  no
+    453   47    services     1784       385  unknown     0.872       yes yes
+    454   40  management      733        94  unknown     0.033        no  no
+    455   46 blue-collar      494       724  unknown     0.546       yes  no
+    456   40   housemaid     4610       154  unknown     0.253        no  no
+    457   55    services      557        58  unknown     0.096        no  no
+    458   23  technician     -306       217  unknown     0.159        no  no
+batch accuracy 86.7% | running accuracy 81.9% over 480 rows | subscribers caught so far 39/48
+
+--- batch 16: 30 new transactions, first 8 with their prediction ---
+ txn_id  age           job  balance  duration poutcome  prob_yes predicted  y
+    481   71    technician      383       327  success     0.994       yes no
+    482   38      services        0       121  unknown     0.098        no no
+    483   28    technician      594        54  unknown     0.033        no no
+    484   33 self-employed      215       543  unknown     0.343        no no
+    485   27   blue-collar      872      1130  unknown     0.989       yes no
+    486   28    management     1351       267  unknown     0.696       yes no
+    487   43   blue-collar       24        68  failure     0.161        no no
+    488   40 self-employed     1876       269  unknown     0.187        no no
+batch accuracy 76.7% | running accuracy 81.6% over 510 rows | subscribers caught so far 42/52
+
+--- batch 17: 30 new transactions, first 8 with their prediction ---
+ txn_id  age         job  balance  duration poutcome  prob_yes predicted   y
+    511   52 blue-collar       60       196  unknown     0.120        no  no
+    512   48 blue-collar      -19       270  unknown     0.033        no  no
+    513   77     retired        0       847  success     1.000       yes yes
+    514   51  management     5108       272    other     0.927       yes  no
+    515   41     unknown     1567       291  unknown     0.581       yes  no
+    516   36    services     1746        99  unknown     0.030        no  no
+    517   48  management      363        67  unknown     0.168        no  no
+    518   27    services       10       527  unknown     0.630       yes  no
+batch accuracy 83.3% | running accuracy 81.7% over 540 rows | subscribers caught so far 44/54
+
+--- batch 18: 30 new transactions, first 8 with their prediction ---
+ txn_id  age          job  balance  duration poutcome  prob_yes predicted   y
+    541   45       admin.      295        92  unknown     0.171        no  no
+    542   32  blue-collar      103       312  unknown     0.242        no  no
+    543   44 entrepreneur        0       300  unknown     0.061        no  no
+    544   28   management      171        93  unknown     0.720       yes yes
+    545   34     services      -62       109  unknown     0.067        no  no
+    546   45   technician        0       139  unknown     0.187        no  no
+    547   49   management      322        72  unknown     0.134        no  no
+    548   26   unemployed      461       214  unknown     0.199        no  no
+batch accuracy 93.3% | running accuracy 82.3% over 570 rows | subscribers caught so far 49/59
+
+--- batch 19: 30 new transactions, first 8 with their prediction ---
+ txn_id  age           job  balance  duration poutcome  prob_yes predicted   y
+    571   33    technician      181       265  unknown     0.099        no  no
+    572   28    technician      172       194  unknown     0.207        no  no
+    573   59   blue-collar     2814        81  unknown     0.060        no  no
+    574   34    technician      228       387  unknown     0.414        no  no
+    575   34        admin.       69       120  success     0.569       yes yes
+    576   39      services        0       793  unknown     0.600       yes  no
+    577   40        admin.      263       231  unknown     0.119        no  no
+    578   38 self-employed      917       260  unknown     0.132        no  no
+batch accuracy 86.7% | running accuracy 82.5% over 600 rows | subscribers caught so far 53/63
+
+--- batch 20: 30 new transactions, first 8 with their prediction ---
+ txn_id  age         job  balance  duration poutcome  prob_yes predicted   y
+    601   36    services      895       622  unknown     0.397        no  no
+    602   34  technician     -228       187    other     0.569       yes  no
+    603   53     retired     6095       410  unknown     0.310        no  no
+    604   31  management      625       424  failure     0.702       yes  no
+    605   34  management      178        14  unknown     0.103        no  no
+    606   50     unknown      558       464  failure     0.741       yes yes
+    607   41      admin.        0        89  unknown     0.178        no  no
+    608   27 blue-collar      148       203  unknown     0.253        no  no
+batch accuracy 80.0% | running accuracy 82.4% over 630 rows | subscribers caught so far 57/69
+
+--- batch 21: 30 new transactions, first 8 with their prediction ---
+ txn_id  age         job  balance  duration poutcome  prob_yes predicted  y
+    631   35  technician     2189       256  unknown     0.246        no no
+    632   36      admin.      319       120  unknown     0.214        no no
+    633   49     retired      -37       191  unknown     0.079        no no
+    634   36 blue-collar      199       183  unknown     0.124        no no
+    635   56  unemployed     1770       916  unknown     0.969       yes no
+    636   59  technician     3163       240  unknown     0.053        no no
+    637   22     student      246        25  unknown     0.184        no no
+    638   32  management     3107       310  unknown     0.196        no no
+batch accuracy 76.7% | running accuracy 82.1% over 660 rows | subscribers caught so far 59/72
+
+--- batch 22: 30 new transactions, first 8 with their prediction ---
+ txn_id  age         job  balance  duration poutcome  prob_yes predicted  y
+    661   39    services        0       503  unknown     0.498        no no
+    662   32  management      820       738  unknown     0.837       yes no
+    663   55 blue-collar       23       123  unknown     0.086        no no
+    664   50      admin.      769        72  failure     0.284        no no
+    665   41    services      412       154  unknown     0.066        no no
+    666   50 blue-collar     8139       256  unknown     0.122        no no
+    667   52  management       50        84  unknown     0.117        no no
+    668   31  technician       25       381  unknown     0.847       yes no
+batch accuracy 83.3% | running accuracy 82.2% over 690 rows | subscribers caught so far 63/77
+
+--- batch 23: 30 new transactions, first 8 with their prediction ---
+ txn_id  age          job  balance  duration poutcome  prob_yes predicted  y
+    691   56  blue-collar      828       214  failure     0.152        no no
+    692   50  blue-collar     3924       122  unknown     0.181        no no
+    693   48 entrepreneur      810       383  unknown     0.312        no no
+    694   36       admin.     2323       111  unknown     0.131        no no
+    695   34       admin.      296       147  unknown     0.219        no no
+    696   60  blue-collar      104        22  unknown     0.008        no no
+    697   50   management      207        99  unknown     0.300        no no
+    698   36       admin.      356       244  failure     0.586       yes no
+batch accuracy 86.7% | running accuracy 82.4% over 720 rows | subscribers caught so far 65/79
+
+--- batch 24: 30 new transactions, first 8 with their prediction ---
+ txn_id  age         job  balance  duration poutcome  prob_yes predicted  y
+    721   33      admin.      621       217  unknown     0.406        no no
+    722   46  unemployed     3533       235  unknown     0.202        no no
+    723   35  management        0        89  unknown     0.151        no no
+    724   58  technician      175        92  unknown     0.125        no no
+    725   54  technician        0       159  success     0.764       yes no
+    726   28 blue-collar       64       160  unknown     0.025        no no
+    727   50  management     3304      1009  unknown     0.934       yes no
+    728   40  management       99        15  unknown     0.162        no no
+batch accuracy 76.7% | running accuracy 82.1% over 750 rows | subscribers caught so far 67/82
+
+--- batch 25: 30 new transactions, first 8 with their prediction ---
+ txn_id  age           job  balance  duration poutcome  prob_yes predicted   y
+    751   32    management     6217       486  unknown     0.122        no  no
+    752   36    management      339         6  unknown     0.096        no  no
+    753   51 self-employed       34       200  unknown     0.200        no  no
+    754   37    unemployed     1978       404  success     0.987       yes yes
+    755   36    management     -296       113  unknown     0.113        no  no
+    756   31    unemployed      591       161  unknown     0.164        no  no
+    757   31    management     6290       303  unknown     0.407        no  no
+    758   45      services       88       332  unknown     0.210        no  no
+batch accuracy 93.3% | running accuracy 82.6% over 780 rows | subscribers caught so far 69/84
+
+--- batch 26: 30 new transactions, first 8 with their prediction ---
+ txn_id  age          job  balance  duration poutcome  prob_yes predicted   y
+    781   39 entrepreneur      238       134  unknown     0.027        no  no
+    782   34       admin.       18       359  unknown     0.655       yes yes
+    783   43  blue-collar      625       175  unknown     0.260        no  no
+    784   44     services        0        97  unknown     0.014        no  no
+    785   32   management      -55       107  unknown     0.144        no  no
+    786   37    housemaid     1040       199  failure     0.266        no  no
+    787   39     services     -540        29  unknown     0.064        no  no
+    788   50   technician      246       270  failure     0.336        no  no
+batch accuracy 93.3% | running accuracy 83.0% over 810 rows | subscribers caught so far 72/87
+
+--- batch 27: 30 new transactions, first 8 with their prediction ---
+ txn_id  age           job  balance  duration poutcome  prob_yes predicted   y
+    811   47    technician       65       118  unknown     0.106        no  no
+    812   47    management     2306       239  unknown     0.269        no yes
+    813   30   blue-collar        1        80  unknown     0.019        no  no
+    814   39  entrepreneur       98        59    other     0.060        no  no
+    815   39    management     2763       526  unknown     0.553       yes yes
+    816   58 self-employed     1407        58  unknown     0.035        no  no
+    817   39    technician     9121       147  unknown     0.134        no  no
+    818   32    unemployed      336       139  unknown     0.041        no  no
+batch accuracy 90.0% | running accuracy 83.2% over 840 rows | subscribers caught so far 76/92
+
+--- batch 28: 30 new transactions, first 8 with their prediction ---
+ txn_id  age           job  balance  duration poutcome  prob_yes predicted  y
+    841   33      services      210       201  unknown     0.020        no no
+    842   59    management       42        40  unknown     0.148        no no
+    843   62    management        0        78  unknown     0.677       yes no
+    844   35 self-employed     8647       140  unknown     0.197        no no
+    845   26       student      203       104  failure     0.401        no no
+    846   58    unemployed      610       246  unknown     0.193        no no
+    847   31 self-employed     -282       131  unknown     0.304        no no
+    848   58    management     2729       188  unknown     0.261        no no
+batch accuracy 86.7% | running accuracy 83.3% over 870 rows | subscribers caught so far 77/93
+
+--- batch 29: 30 new transactions, first 8 with their prediction ---
+ txn_id  age         job  balance  duration poutcome  prob_yes predicted   y
+    871   31  technician      373       346  unknown     0.438        no  no
+    872   44  management     2984       770  unknown     0.638       yes  no
+    873   44  management      438        37  failure     0.072        no  no
+    874   42  technician     2980       101  unknown     0.100        no  no
+    875   27  technician      842       273    other     0.610       yes  no
+    876   30  management      151        82  unknown     0.148        no  no
+    877   32 blue-collar       53       276  failure     0.310        no  no
+    878   32    services       38       744  unknown     0.812       yes yes
+batch accuracy 83.3% | running accuracy 83.3% over 900 rows | subscribers caught so far 80/96
+
+--- batch 30: 4 new transactions, first 8 with their prediction ---
+ txn_id  age         job  balance  duration poutcome  prob_yes predicted   y
+    901   38  management     3576       349  success     0.873       yes yes
+    902   57 blue-collar      195       185  unknown     0.093        no  no
+    903   52  management      428       153  unknown     0.063        no  no
+    904   31  technician     2305       139  unknown     0.230        no  no
+batch accuracy 100.0% | running accuracy 83.4% over 904 rows | subscribers caught so far 81/97

@@ -1,0 +1,459 @@
+[producer] sending chunks every 0.5 seconds
+
+--- batch 0: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.             5       1115.4             218.8
+  blue-collar             4        124.8             398.8
+ entrepreneur             1      -2082.0             123.0
+   management             5       1077.2             437.6
+      retired             1        261.0            1117.0
+self-employed             1       8515.0              14.0
+     services             2        418.0              90.0
+   technician            10        669.0             248.8
+      unknown             1       7337.0             122.0
+
+--- batch 1: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.             8       1989.4             186.8
+  blue-collar            11        262.6             293.6
+ entrepreneur             2       -886.0              99.5
+   management            10        738.1             468.3
+      retired             2       2016.0             651.0
+self-employed             1       8515.0              14.0
+     services             6       1014.7             123.7
+   technician            19       1013.6             224.7
+      unknown             1       7337.0             122.0
+
+--- batch 2: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.             8       1989.4             186.8
+  blue-collar            21        596.4             313.2
+ entrepreneur             3       -432.3             378.3
+   management            16        925.9             345.0
+      retired             4      18839.5             428.0
+self-employed             1       8515.0              14.0
+     services             7        846.6             112.3
+      student             2       1421.5             469.0
+   technician            24       1104.2             219.1
+   unemployed             3        481.7             233.0
+      unknown             1       7337.0             122.0
+
+--- batch 3: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.            11       1462.1             172.5
+  blue-collar            29        642.8             339.9
+ entrepreneur             6        276.8             261.7
+    housemaid             1          0.0              94.0
+   management            21        896.9             356.5
+      retired             4      18839.5             428.0
+self-employed             3       3278.7             213.7
+     services             9        664.9             108.1
+      student             2       1421.5             469.0
+   technician            29        945.1             213.2
+   unemployed             3        481.7             233.0
+      unknown             2       3759.0              81.5
+
+--- batch 4: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.            16       2509.8             188.9
+  blue-collar            38       1054.3             292.9
+ entrepreneur             7        241.3             241.0
+    housemaid             2        100.5              76.0
+   management            27       2008.7             366.1
+      retired             7      11546.6             319.4
+self-employed             4       1630.8             198.5
+     services            11        560.9             161.7
+      student             2       1421.5             469.0
+   technician            29        945.1             213.2
+   unemployed             4        890.3             277.0
+      unknown             3       2717.3             116.0
+
+--- batch 5: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.            17       2532.9             193.1
+  blue-collar            46        993.9             326.6
+ entrepreneur             9        214.2             264.3
+    housemaid             4       1820.8             164.0
+   management            33       1842.1             354.9
+      retired             8      10138.1             329.4
+self-employed             5       1447.0             224.0
+     services            14        811.6             179.6
+      student             2       1421.5             469.0
+   technician            35        810.0             268.6
+   unemployed             4        890.3             277.0
+      unknown             3       2717.3             116.0
+
+--- batch 6: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.            20       2394.5             229.3
+  blue-collar            53       1007.4             306.5
+ entrepreneur            13       3391.1             262.5
+    housemaid             4       1820.8             164.0
+   management            41       1729.9             369.1
+      retired            10       8206.6             311.0
+self-employed             6       1200.3             225.7
+     services            17       1051.6             154.2
+      student             2       1421.5             469.0
+   technician            37        856.1             266.3
+   unemployed             4        890.3             277.0
+      unknown             3       2717.3             116.0
+
+--- batch 7: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.            25       2122.4             214.1
+  blue-collar            59       1197.1             288.5
+ entrepreneur            14       3191.2             349.7
+    housemaid             5       1456.6             275.6
+   management            47       1562.8             340.8
+      retired            11       8367.5             287.9
+self-employed             7       1080.3             278.0
+     services            20       1036.8             172.9
+      student             3       4799.3             354.3
+   technician            41        859.0             261.3
+   unemployed             5        734.0             406.4
+      unknown             3       2717.3             116.0
+
+--- batch 8: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.            31       2097.1             221.3
+  blue-collar            66       1147.5             299.1
+ entrepreneur            15       3022.1             366.0
+    housemaid             8        968.5             220.9
+   management            53       1582.6             330.5
+      retired            14       6774.9             275.9
+self-employed             7       1080.3             278.0
+     services            21       1073.6             170.2
+      student             3       4799.3             354.3
+   technician            44        851.2             258.7
+   unemployed             5        734.0             406.4
+      unknown             3       2717.3             116.0
+
+--- batch 9: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.            37       1833.2             210.0
+  blue-collar            69       1170.3             296.2
+ entrepreneur            15       3022.1             366.0
+    housemaid             8        968.5             220.9
+   management            58       1498.6             319.8
+      retired            16       5996.1             262.9
+self-employed             8        917.8             260.5
+     services            30        925.4             191.4
+      student             3       4799.3             354.3
+   technician            48        859.9             249.2
+   unemployed             5        734.0             406.4
+      unknown             3       2717.3             116.0
+
+--- batch 10: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.            39       1758.2             213.1
+  blue-collar            83       1427.6             269.7
+ entrepreneur            17       2671.4             342.6
+    housemaid            10        850.0             306.4
+   management            62       1443.1             327.2
+      retired            16       5996.1             262.9
+self-employed             9        826.3             377.0
+     services            30        925.4             191.4
+      student             3       4799.3             354.3
+   technician            53        807.9             252.7
+   unemployed             5        734.0             406.4
+      unknown             3       2717.3             116.0
+
+--- batch 11: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.            42       1694.0             211.1
+  blue-collar            88       1480.5             269.0
+ entrepreneur            18       2764.2             328.3
+    housemaid            10        850.0             306.4
+   management            70       1674.3             342.2
+      retired            16       5996.1             262.9
+self-employed            11        674.5             334.7
+     services            33        949.1             180.9
+      student             3       4799.3             354.3
+   technician            61        736.0             255.4
+   unemployed             5        734.0             406.4
+      unknown             3       2717.3             116.0
+
+--- batch 12: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.            46       1640.2             208.7
+  blue-collar            94       1402.4             269.0
+ entrepreneur            20       2693.2             334.2
+    housemaid            11       1226.7             282.9
+   management            75       1632.4             330.4
+      retired            18       5356.9             258.3
+self-employed            11        674.5             334.7
+     services            35        948.8             202.1
+      student             5       3170.0             270.8
+   technician            67        862.9             252.1
+   unemployed             5        734.0             406.4
+      unknown             3       2717.3             116.0
+
+--- batch 13: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.            51       1656.3             203.5
+  blue-collar           102       1398.2             258.0
+ entrepreneur            22       2473.2             330.7
+    housemaid            11       1226.7             282.9
+   management            84       1661.2             323.9
+      retired            18       5356.9             258.3
+self-employed            12        671.8             346.2
+     services            38       1045.6             208.3
+      student             5       3170.0             270.8
+   technician            69        927.3             248.7
+   unemployed             5        734.0             406.4
+      unknown             3       2717.3             116.0
+
+--- batch 14: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.            57       1484.1             191.7
+  blue-collar           110       1327.0             261.5
+ entrepreneur            23       2369.5             330.8
+    housemaid            11       1226.7             282.9
+   management            91       1753.9             333.3
+      retired            18       5356.9             258.3
+self-employed            13        643.7             324.5
+     services            38       1045.6             208.3
+      student             6       3191.3             263.5
+   technician            73       1350.0             244.6
+   unemployed             7        800.0             368.3
+      unknown             3       2717.3             116.0
+
+--- batch 15: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.            60       1412.1             211.4
+  blue-collar           116       1342.6             261.0
+ entrepreneur            24       2273.5             322.8
+    housemaid            12       1508.7             272.2
+   management            97       1667.4             326.4
+      retired            19       5077.8             255.6
+self-employed            13        643.7             324.5
+     services            43       1008.2             216.3
+      student             6       3191.3             263.5
+   technician            79       1387.7             237.5
+   unemployed             8       1301.1             350.1
+      unknown             3       2717.3             116.0
+
+--- batch 16: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.            62       1429.2             212.7
+  blue-collar           121       1340.0             263.6
+ entrepreneur            26       2112.3             304.5
+    housemaid            13       1431.0             257.4
+   management            99       1653.2             325.7
+      retired            22       4484.8             253.2
+self-employed            16        676.1             325.4
+     services            45        965.5             216.9
+      student             6       3191.3             263.5
+   technician            86       1334.4             257.3
+   unemployed            10       1056.6             306.3
+      unknown             4       2072.3             183.3
+
+--- batch 17: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.            66       1418.0             214.8
+  blue-collar           126       1293.7             260.2
+ entrepreneur            26       2112.3             304.5
+    housemaid            13       1431.0             257.4
+   management           105       1657.1             315.8
+      retired            23       4289.8             279.0
+self-employed            17        670.7             309.1
+     services            50        905.6             220.4
+      student             7       2736.0             289.1
+   technician            89       1290.1             253.8
+   unemployed            13        813.4             302.3
+      unknown             5       1971.2             204.8
+
+--- batch 18: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.            72       1368.6             204.9
+  blue-collar           129       1264.8             260.7
+ entrepreneur            27       2034.1             304.3
+    housemaid            13       1431.0             257.4
+   management           116       1802.2             319.3
+      retired            23       4289.8             279.0
+self-employed            17        670.7             309.1
+     services            51        886.6             218.2
+      student             7       2736.0             289.1
+   technician            95       1229.2             251.8
+   unemployed            15        758.5             301.4
+      unknown             5       1971.2             204.8
+
+--- batch 19: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.            76       1319.6             208.8
+  blue-collar           134       1246.3             257.0
+ entrepreneur            27       2034.1             304.3
+    housemaid            14       3254.9             285.7
+   management           122       1822.5             312.1
+      retired            25       3945.7             277.2
+self-employed            18        684.4             306.4
+     services            54        834.0             229.1
+      student             7       2736.0             289.1
+   technician           103       1204.0             251.1
+   unemployed            15        758.5             301.4
+      unknown             5       1971.2             204.8
+
+--- batch 20: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.            80       1290.5             207.7
+  blue-collar           140       1215.8             255.4
+ entrepreneur            29       1898.0             308.9
+    housemaid            15       3037.9             271.7
+   management           131       1811.2             313.3
+      retired            26       4028.4             282.3
+self-employed            19        719.6             329.0
+     services            56        821.3             234.8
+      student             7       2736.0             289.1
+   technician           105       1174.8             248.9
+   unemployed            16        931.7             293.1
+      unknown             6       1735.7             248.0
+
+--- batch 21: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.            85       1245.4             204.6
+  blue-collar           145       1264.6             251.5
+ entrepreneur            30       1852.7             310.4
+    housemaid            15       3037.9             271.7
+   management           139       1787.5             318.3
+      retired            27       3877.8             278.9
+self-employed            22        934.8             295.0
+     services            58        838.9             241.1
+      student             8       2424.8             256.1
+   technician           108       1233.4             254.5
+   unemployed            17        981.0             329.8
+      unknown             6       1735.7             248.0
+
+--- batch 22: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.            91       1250.8             207.8
+  blue-collar           153       1321.0             254.0
+ entrepreneur            32       1861.1             301.5
+    housemaid            15       3037.9             271.7
+   management           145       1759.7             316.6
+      retired            27       3877.8             278.9
+self-employed            22        934.8             295.0
+     services            60        817.9             244.0
+      student             8       2424.8             256.1
+   technician           113       1199.7             266.8
+   unemployed            18       1082.7             357.6
+      unknown             6       1735.7             248.0
+
+--- batch 23: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.            98       1204.2             204.7
+  blue-collar           157       1318.5             250.3
+ entrepreneur            34       1794.7             305.4
+    housemaid            15       3037.9             271.7
+   management           150       1707.3             313.6
+      retired            29       3700.4             284.0
+self-employed            23        904.5             284.1
+     services            63        819.8             240.8
+      student             8       2424.8             256.1
+   technician           117       1174.1             262.3
+   unemployed            20       1022.7             342.5
+      unknown             6       1735.7             248.0
+
+--- batch 24: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.           101       1179.0             204.2
+  blue-collar           166       1321.9             251.8
+ entrepreneur            35       1779.8             302.3
+    housemaid            16       2862.4             259.5
+   management           155       1682.3             312.9
+      retired            31       3474.2             270.8
+self-employed            24        896.2             275.5
+     services            65        827.2             248.6
+      student             9       2192.0             249.6
+   technician           121       1149.8             259.8
+   unemployed            21       1142.2             337.3
+      unknown             6       1735.7             248.0
+
+--- batch 25: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.           102       1171.3             203.1
+  blue-collar           169       1303.8             252.9
+ entrepreneur            35       1779.8             302.3
+    housemaid            18       2876.9             248.1
+   management           163       1849.9             307.9
+      retired            31       3474.2             270.8
+self-employed            29        806.9             260.6
+     services            67        804.6             246.9
+      student            10       1972.8             254.0
+   technician           126       1185.6             256.7
+   unemployed            24       1106.5             444.8
+      unknown             6       1735.7             248.0
+
+--- batch 26: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.           107       1136.2             207.0
+  blue-collar           176       1303.2             251.6
+ entrepreneur            38       1698.7             318.4
+    housemaid            19       2780.3             245.5
+   management           168       1862.5             306.8
+      retired            31       3474.2             270.8
+self-employed            29        806.9             260.6
+     services            72        745.6             241.1
+      student            10       1972.8             254.0
+   technician           129       1163.9             257.9
+   unemployed            25       1077.3             433.3
+      unknown             6       1735.7             248.0
+
+--- batch 27: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.           112       1110.1             201.5
+  blue-collar           180       1284.4             256.3
+ entrepreneur            41       1619.3             305.4
+    housemaid            19       2780.3             245.5
+   management           174       1842.2             304.1
+      retired            31       3474.2             270.8
+self-employed            31        818.3             247.5
+     services            74        769.3             237.9
+      student            12       2023.6             243.5
+   technician           133       1192.7             256.4
+   unemployed            27       1028.7             411.3
+      unknown             6       1735.7             248.0
+
+--- batch 28: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.           115       1142.3             199.7
+  blue-collar           184       1260.9             262.5
+ entrepreneur            41       1619.3             305.4
+    housemaid            21       2526.0             247.6
+   management           181       1814.8             297.1
+      retired            33       3407.2             290.5
+self-employed            33       1022.2             240.8
+     services            79        839.9             232.4
+      student            14       2355.7             227.4
+   technician           135       1220.7             254.6
+   unemployed            28       1013.8             405.4
+      unknown             6       1735.7             248.0
+
+--- batch 29: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.           117       1130.9             206.5
+  blue-collar           188       1244.1             262.0
+ entrepreneur            41       1619.3             305.4
+    housemaid            21       2526.0             247.6
+   management           194       1823.6             289.5
+      retired            34       3307.9             289.6
+self-employed            33       1022.2             240.8
+     services            82        852.4             234.6
+      student            14       2355.7             227.4
+   technician           142       1220.8             253.2
+   unemployed            28       1013.8             405.4
+      unknown             6       1735.7             248.0
+
+--- batch 30: averages per job so far ---
+          job  transactions  avg_balance  avg_duration_sec
+       admin.           117       1130.9             206.5
+  blue-collar           189       1238.6             261.6
+ entrepreneur            41       1619.3             305.4
+    housemaid            21       2526.0             247.6
+   management           196       1825.4             289.2
+      retired            34       3307.9             289.6
+self-employed            33       1022.2             240.8
+     services            82        852.4             234.6
+      student            14       2355.7             227.4
+   technician           143       1228.4             252.4
+   unemployed            28       1013.8             405.4
+      unknown             6       1735.7             248.0
