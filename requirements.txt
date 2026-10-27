@@ -1,0 +1,13 @@
+# parts 2 to 5 (part 1 runs in docker)
+pyspark==3.5.9
+pandas==2.2.3
+numpy==2.0.2
+matplotlib==3.11.2
+seaborn==0.13.2
+scipy==1.18.1
+psutil==7.2.2
+jupyter==1.1.1
+# spark ml 3.5 still imports distutils, which python 3.12 no longer ships
+setuptools==84.2.1
+# optional, only for the spark ui screenshots in part 5 (then run: playwright install chromium)
+playwright==1.64.1
