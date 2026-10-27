@@ -1,0 +1,7 @@
+| education  | clients_in_default  |
++------------+---------------------+
+| secondary  | 46                  |
+| tertiary   | 17                  |
+| primary    | 10                  |
+| unknown    | 3                   |
++------------+---------------------+

@@ -1,0 +1,13 @@
+|      job      |  marital  | balance  |
++---------------+-----------+----------+
+| retired       | married   | 71188    |
+| entrepreneur  | married   | 42045    |
+| technician    | single    | 27733    |
+| management    | married   | 27359    |
+| technician    | married   | 27069    |
+| housemaid     | single    | 26965    |
+| retired       | married   | 26452    |
+| services      | married   | 26394    |
+| management    | divorced  | 26306    |
+| retired       | single    | 25824    |
++---------------+-----------+----------+

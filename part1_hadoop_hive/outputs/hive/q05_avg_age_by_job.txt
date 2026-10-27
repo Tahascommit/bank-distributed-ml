@@ -1,0 +1,15 @@
+|      job       | clients  | avg_age  |
++----------------+----------+----------+
+| retired        | 230      | 61.9     |
+| unknown        | 38       | 48.1     |
+| housemaid      | 112      | 47.3     |
+| entrepreneur   | 168      | 42.0     |
+| self-employed  | 183      | 41.5     |
+| unemployed     | 128      | 40.9     |
+| management     | 969      | 40.5     |
+| blue-collar    | 946      | 40.2     |
+| admin.         | 478      | 39.7     |
+| technician     | 768      | 39.5     |
+| services       | 417      | 38.6     |
+| student        | 84       | 26.8     |
++----------------+----------+----------+
