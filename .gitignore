@@ -18,3 +18,4 @@ checkpoints/
 # part 4 runtime folders
 part4_streaming/stream_data/incoming/
 part4_streaming/checkpoints/
+part5_parallelism/spark_driver.log
